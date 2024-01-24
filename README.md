@@ -1,2 +1,2 @@
-# gassses store SPA
- React SPA for a Glasses Store from Brazil
+# Glasses store React App
+ React App for a Glasses Store from Brazil
