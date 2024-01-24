@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    padding: 10px 15px;
+    position: fixed;
+    background-color: white;
+    margin: 0;
+}
+
+.logo-links {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+}
+
+header a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 550px){
+    .logo-links {
+        flex-direction: column;
+        width: 100%;
+    }
+    .links {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        border-top: solid 1px #aaadaf;
+    }
+}
